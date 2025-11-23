@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-@file follow_ball_refactored.py
-@brief PID follower robot controller for CoppeliaSim (refactored, documented for Doxygen)
+@file path_tracking_VSSS.py
+@brief PID follower robot controller for CoppeliaSim (refactored, documented for Doxygen)(see video of the georgia tech
+ course in this link: https://www.youtube.com/watch?v=Lgy92yXiyqQ&list=PLp8ijpvp8iCvFDYdcXqqYU5Ibl_aOqwjr&index=14)
 
 Authors:
     Mario Andres Pastrana Triana (mario.pastrana@ieee.org)
