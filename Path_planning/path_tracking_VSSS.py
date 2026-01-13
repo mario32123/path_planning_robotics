@@ -37,11 +37,11 @@ logger = logging.getLogger("FollowBall")
 # ---------------------------
 # Configuration / Constants
 # ---------------------------
-WHEEL_BASE = 6.5  # distance between wheels (same units as in your sim)
-WHEEL_RADIUS = 1.6
-DEFAULT_V_MAX = 15.0
-DEFAULT_V_MIN = -15.0
-DEFAULT_V_LINEAR = 5.0
+WHEEL_BASE = 6.5            # distance between wheels in cm (same units as in your sim)
+WHEEL_RADIUS = 1.6          # radius of wheels in cm
+DEFAULT_V_MAX = 25.0        # max linear speed in cm/s
+DEFAULT_V_MIN = -25.0       # min linear speed in cm/s
+DEFAULT_V_LINEAR = 10       # linear speed in cm/s
 
 class VSSS:
     """

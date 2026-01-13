@@ -37,11 +37,11 @@ logger = logging.getLogger("FollowBall")
 # ---------------------------
 # Configuration / Constants
 # ---------------------------
-WHEEL_BASE = 381  # distance between wheels (same units as in your sim)
-WHEEL_RADIUS = 95
-DEFAULT_V_MAX = 150.0
-DEFAULT_V_MIN = -150.0
-DEFAULT_V_LINEAR = 50.0
+WHEEL_BASE = 381          # distance between wheels in cm (same units as in your sim)
+WHEEL_RADIUS = 95         # radius of wheels in cm
+DEFAULT_V_MAX = 150.0     # max linear speed in cm/s
+DEFAULT_V_MIN = -150.0    # min linear speed in cm/s
+DEFAULT_V_LINEAR = 50.0   # linear speed in cm/s
 
 class Pioneer:
     """
